@@ -45,7 +45,7 @@ Refer to the following tables to check which fields support sorting.
 | totalGuests  | Guest count             |                                                                  | Allowed |         |
 | status       | Guest response          | $eq,$ne,$hasSome                                                 | Allowed | Allowed |
 | rsvpId       |                         | $eq,$ne,$hasSome                                                 |         |         |
-| eventId      |                         | $eq,$ne,$hasSome                                                 |         |         |
+| eventId      |                         | $eq,$ne,$hasSome                                                 |         | Allowed |
 
 ## List & Query Available Tickets
 [//]: # (https://bo.wix.com/wix-docs/rest/events/wix-events/filter-and-sort#events_wix-events_filter-and-sort_list-query-available-tickets)
@@ -73,6 +73,7 @@ Refer to the following tables to check which fields support sorting.
 | free          |                         |         | Allowed |
 | archived      |                         |         | Allowed |
 | checkedIn     |                         |         | Allowed |
+| eventId       |                         |         | Allowed |
 
 
 ## List Ticket Definitions
@@ -116,5 +117,13 @@ Refer to the following tables to check which fields support sorting.
 |------------------|-----------------------------|
 | policyId         | $eq,$ne,$hasSome,$contains  |         
 | eventId          | $eq,$hasSome                |         
-     
+
+## List Agenda Items
+| Field            | Description             | Sorting | Facets  |
+|------------------|-------------------------|---------|---------|
+| stage_name       |                         |         | Allowed |
+| track_name       |                         |         | Allowed |
+| host_name        |                         |         | Allowed |
+
+
 [//]: # (Full list of operators for reference: $eq,$ne,$lt,$lte,$gt,$gte,$hasSome,$in,$contains,$startsWith,$endsWith,$urlized,$exists)
