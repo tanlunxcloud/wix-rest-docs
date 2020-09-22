@@ -135,4 +135,5 @@ The response for a query request is an object with the following structure:
 
 # links
 [link to authentication](Authentication.md)
+
 [link to API](All APIs.Apps.Embed Script)
