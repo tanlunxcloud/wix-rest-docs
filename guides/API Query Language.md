@@ -134,4 +134,4 @@ The response for a query request is an object with the following structure:
 
 
 # links
-[link to authentication][authentication.md]
+[link to authentication](authentication.md)
