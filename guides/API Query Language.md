@@ -131,3 +131,7 @@ The response for a query request is an object with the following structure:
   totalResults: 420
 }
 ```
+
+
+# links
+[link to authentication][authentication.md]
