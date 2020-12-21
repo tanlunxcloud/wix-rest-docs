@@ -2,7 +2,7 @@ SortOrder: 1
 # Tokenization Application Error Codes
 
 ## What is it?
-Calling the Billing Tokenizer V1/V2 API to [tokenize](https://bo.wix.com/wix-docs/rest/all-apis#billing-tokenizer.create-token)
+Calling the Billing Tokenizer V1/V2 API to [tokenize](/https://bo.wix.com/wix-docs/rest/all-apis#billing-tokenizer.create-token)
  sensitive billing details can throw an Exception that contains an ApplicationError.
  
 For example: <br/> 
