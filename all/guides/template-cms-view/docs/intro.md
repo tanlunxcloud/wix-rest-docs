@@ -38,7 +38,7 @@ In order to view the templates, the client must first fetch the currently live b
 This will allow the client to see the category names and structure (their order & sub-categories).
 If the client wishes to view the templates inside a category, further API calls
 must be performed in order to fetch the category. Categories & templates may
-be fetched either by their id or by their [slug](Slugs)
+be fetched either by their id or by their [slug](/docs/Slugs)
 
 ## API Behavior
 When querying the API, a few things happen behind the scenes - 
