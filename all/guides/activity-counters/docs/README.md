@@ -22,5 +22,3 @@ The required info: - Get member numbers for blog/forum app
  
 **3. Trending product widget.**
 A user wants to add a "Trending" product widget to his home page, based on how many members added this to their wishlist
-
-
