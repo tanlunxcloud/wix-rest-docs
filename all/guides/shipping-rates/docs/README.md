@@ -26,7 +26,9 @@ to calculate shipping rates due to that, we expect the following payload to be r
 ```
 * message - can be any free text message or empty;
 
-Currently, the following options for each one of the fields are supported:
+Currently, the following error codes are supported:
 * field - `postalCode`; description - `MISSING`, `INVALID`;
-* field - `shippingDestination.subdivision`; description - `INVALID`;
+    * Indicates that the given postal code is missing or invalid (when it's mandatory for shipping calculations).
+* field - `shippingDestination`; description - `PARTIAL`
+    * Indicates that the given destination address is partial (when a full address is mandatory for shipping calculations).
 
