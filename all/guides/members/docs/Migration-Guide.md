@@ -22,9 +22,12 @@ Example for bootstrap:
   MembersWithCallScope.stub(clients.grpcChannel(GrpcProxyUrl), _.withAuthority("com.wixpress.members.members-ng-api"))
 ```
 
-## Ambassador
+## Node
 
-For node artifacts you can add ambassador artifact `@wix/ambassador-members-ng-api`
+For node artifacts you use:
+ 1. Ambassador `@wix/ambassador-members-ng-api`
+ 2. Directly `@wix/members-ng-api`
+
 
 ## RPC Endpoints
 
