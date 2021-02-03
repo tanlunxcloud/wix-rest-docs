@@ -3,7 +3,7 @@ SortOrder: 0
 
 When a visitor first interacts with a site in a number of ways —
 such as submitting a contact form or subscribing to a newsletter —
-they're captured in the site's Contact List as a new contact.
+they're captured in the site's Contact List as a new contact
 and their details will be available through the contacts APIs.
 Here are some examples for how a visitor could be converted to a contact:
 
